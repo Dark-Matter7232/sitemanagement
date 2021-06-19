@@ -314,7 +314,6 @@ main "$@"n
 its_done() {
 	rm -rf $dst/index.html 
 	mv $dst/about.html $dst/index.html
-	./ssg6 src dst "Dark-Matter7232" "https://anuragcodes.me/"
 	rm -rf git-site
 	git clone https://github.com/Dark-Matter7232/Dark-Matter7232.github.io.git git-site
 	rm -rf git-site/*
