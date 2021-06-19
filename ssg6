@@ -311,17 +311,6 @@ render_sitemap() {
 	echo '</urlset>'
 }
 main "$@"n
-its_done() {
-	rm -rf $dst/index.html 
-	mv $dst/about.html $dst/index.html
-	rm -rf git-site
-	git clone https://github.com/Dark-Matter7232/Dark-Matter7232.github.io.git git-site
-	rm -rf git-site/*
-	rm -rf git-site/.files
-	cp -r dst/* git-site/
-	cd git-site
-	git add -A
-	git commit -m "Update Site"
-	git push
-}
-its_done
+
+rm -rf $dst/index.html 
+mv $dst/about.html $dst/index.html
