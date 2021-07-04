@@ -271,7 +271,7 @@ generate_post_list() {
   fi
 	while read -r f
   do
-    if [ "$f" = "$src/index.html" ] || [ "$f" = "./about.md" ] || [ "$f" = "$src/archive.html" ]; then
+    if [ "$f" = "$src/index.html" ] || [ "$f" = "./about.md" ] || [ "$f" = "$src/archive.html" ] || [ "$f" = "./uses.md" ]; then
       continue
     fi
     TITLE=$(grep -i title "$1/$f" | head -n1 | awk -F ":" '{ print $2 }')
