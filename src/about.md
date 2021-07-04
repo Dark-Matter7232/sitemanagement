@@ -1,7 +1,6 @@
 # About Me
 
-Hey, I am AnuragRai: a 16-year-old Linux geek, programmer and system administrator. I enjoy writing cool minimalist *nix utilities  
-and working with low-level os components like kernel, Coreutils, etc.  
+Hey, I am AnuragRai: a 16-year-old Linux geek, programmer and system administrator. I enjoy writing cool minimalist *nix utilities and working with low-level os components like kernel, Coreutils, etc.  
 
 # Projects  
 
@@ -12,8 +11,7 @@ and working with low-level os components like kernel, Coreutils, etc.
 
 # Contacting me
 
-I have presence on multiple social media/messaging platforms and I will respond to DMs/mentions as long as you [don't ask to ask](https://dontasktoask.com/)  
-and express your intent clearly.
+I have presence on multiple social media/messaging platforms and I will respond to DMs/mentions as long as you [don't ask to ask](https://dontasktoask.com/) and express your intent clearly.
 
 - [Twitter](https://twitter.com/AnuragR4484)
 - [Telegram](https://t.me/AnuragRoy)
