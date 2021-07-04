@@ -128,16 +128,16 @@ font-weight: bold;
 
 h1 {
   font-size: 1.5em;
-  padding-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #282828;
+  border-bottom: 1px solid #494747;
 }
 
 h2 {
 font-size: 1.4em;
 padding-top: 1em;
 padding-bottom: 0.3em;
-border-bottom: 1px solid #282828;
+border-bottom: 1px solid #494747;
 }
 
 h3 {
@@ -556,16 +556,48 @@ hr {
 }
 .main-header{
   text-align: center;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 0px;
 }
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 60%;
+  width: 100%;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #a04444;
+  border-color: rgba(27,31,35,.15);
+  -webkit-box-shadow: 0 1px 0 rgb(27 31 35 / 10%), inset 0 1px 0 hsl(0deg 0% 100% / 3%);
+  box-shadow: 0 1px 0 rgb(27 31 35 / 10%), inset 0 1px 0 hsl(0deg 0% 100% / 3%);
+}
+.timeline-comment .comment {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  min-width: 0;
+  /* background-color: #2d2833; */
+  border: 1px solid #4e4c4b;
+  border-radius: 6px;
+}
+.timeline-comment .new-comment-header {
+  padding: 8px 8px 0;
+  background-color: #282a36;
+  border-bottom: 1px solid #6d6562;
+  margin-bottom: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }

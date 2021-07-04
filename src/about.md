@@ -13,7 +13,10 @@ Hey, I am AnuragRai: a 16-year-old Linux geek, programmer and system administrat
 
 I have presence on multiple social media/messaging platforms and I will respond to DMs/mentions as long as you [don't ask to ask](https://dontasktoask.com/) and express your intent clearly.
 
+- [Github](https://github.com/Dark-Matter7232)
+- [Reddit](https://www.reddit.com/user/Dark-Matter7232)
 - [Twitter](https://twitter.com/AnuragR4484)
-- [Telegram](https://t.me/AnuragRoy)
+- [Telegram](https://telegram.me/AnuragRoy)
+
 
 I typically respond fastest to Telegram messages. For traditional email, use [anuragrai4484@gmail.com](mailto:anuragrai4484@gmail.com).

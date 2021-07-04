@@ -282,7 +282,7 @@ generate_post_list() {
     printf "\
 SortByDate:$DATE
 <h1 id=\"$TITLE\" style=\"font-size:1.3em;border-bottom: none; padding-bottom: 0em;\">\n\
-  <a href=\"/${f%\.md}.html\">$TITLE</a>\n\
+  <a href=\"/${f%\.md}\">$TITLE</a>\n\
 </h1>\n\
 <p style=\"text-align:justified;\">$DESC<br/>\n\
 <strong><u>KEYWORDS</u>: </strong>[$TAGS ]</p>\n\
@@ -290,7 +290,7 @@ SortByDate\n\n" >> "$1/index.html"
 
     printf "\
 SortByDate:$DATE
-<li><b>[$DATE] </b><a href=\"/${f%\.md}.html\">$TITLE</a>\n\
+<li><b>[$DATE] </b><a href=\"/${f%\.md}\">$TITLE</a>\n\
 SortByDate\n\n" >> "$1/archive.html"
   done
 }
