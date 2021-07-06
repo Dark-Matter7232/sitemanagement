@@ -1,0 +1,31 @@
+#!/bin/bash
+main() {
+    if [ -z "$*" ]; then
+        echo "please give post name"
+    else
+        $(add_comment_section "$@")
+    fi
+}
+add_comment_section() {
+    touch src/posts/$1.md
+cat > src/posts/$1.md <<EOF
+---
+title:
+description:
+date:
+tags:
+---
+
+
+<hr>
+<script src="https://utteranc.es/client.js"
+        repo="Dark-Matter7232/Dark-Matter7232.github.io"
+        issue-term="pathname"
+        theme="github-dark-orange"
+        crossorigin="anonymous"
+        async>
+</script>
+EOF
+}
+
+main "$@"
