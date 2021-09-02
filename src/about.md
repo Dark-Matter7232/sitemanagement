@@ -8,6 +8,7 @@ Hey, I am AnuragRai: a 16-year-old Linux geek, programmer and system administrat
 - [DarkLock: A simple screen locker for *nix](https://github.com/Dark-Matter7232/DarkLock)  
 - [Spotify-Adblock-macos: Port of spotify adblocker for macos](https://github.com/Dark-Matter7232/spotify-adblock-mac)  
 - [DarkSt: A simple terminal emulator](https://github.com/Dark-Matter7232/DarkST)  
+- [TheCosmicStaff: A Custom kernel focused around efficiency](https://github.com/Dark-Matter7232/The-Cosmic-Staff)
 
 # Contacting me
 
