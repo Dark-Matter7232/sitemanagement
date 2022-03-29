@@ -2,7 +2,7 @@
 
 # About Me
 
-Hey, I’m Const Coccinelle: a 16-year-old Linux geek, audiophile, programmer and system administrator. I enjoy writing cool minimalist *nix utilities and working with low-level os components like kernel, Coreutils, etc.  
+Hey, I’m AnuragRai aka Const Coccinelle: a 16-year-old Linux geek, audiophile, programmer and system administrator. I enjoy writing cool minimalist *nix utilities and working with low-level os components like kernel, Coreutils, etc.  
 
 ## Reading
 Reading is one of the things that keeps me from rage-quiting projects.
