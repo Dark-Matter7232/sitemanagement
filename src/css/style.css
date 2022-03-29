@@ -601,3 +601,22 @@ td, th {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
+
+#lastUpdated-css {
+  border-block-end-color: rgb(163, 163, 163);
+  border-block-start-color: rgb(163, 163, 163);
+  border-inline-end-color: rgb(163, 163, 163);
+  border-inline-start-color: rgb(163, 163, 163);
+  caret-color: rgb(163, 163, 163);
+  color: rgb(163, 163, 163);
+  column-rule-color: rgb(163, 163, 163);
+  overflow-wrap: break-word;
+  perspective-origin: 0px 0px;
+  text-decoration: none solid rgb(163, 163, 163);
+  text-emphasis-color: rgb(163, 163, 163);
+  text-size-adjust: 100%;
+  transform-origin: 0px 0px;
+  border: 0px none rgb(163, 163, 163);
+  font: 13.04px / 25.428px "Fira Sans", system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei UI", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: rgb(163, 163, 163) none 0px;
+}

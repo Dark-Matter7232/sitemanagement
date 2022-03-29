@@ -16,6 +16,7 @@ date:
 tags:
 ---
 
+<p id="lastUpdated-css">Updated on <span id="lastUpdated"></span></p>
 
 <hr>
 <script src="https://utteranc.es/client.js"

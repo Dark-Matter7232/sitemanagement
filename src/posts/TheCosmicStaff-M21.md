@@ -1,5 +1,5 @@
 ---
-title: The Cosmic Staff Kernel For M21
+title: The Cosmic Staff Kernel
 description: The Cosmic Staff kernel for M21, for personal use.
 date: 2021-07-13
 tags: kernel, thecosmicstaff, m21
@@ -11,7 +11,23 @@ Image: cosmic.jpg
 <img src="https://raw.githubusercontent.com/Dark-Matter7232/Dark-Matter7232.github.io/v2/img/cosmic.jpg">
 </center>
 
-## Features
+<details>
+<summary>CONTENTS</summary>
+
+- [Features](#features)
+- [Changelog](#changelog)
+- [Flashing intstrcutions](#instructions)
+- [Downlod links](#downloads)
+- [Source code](#sources)
+- [Final Note](#notes)
+
+</details>
+
+
+
+## Features <a name="features"></a>
+
+<details>
 
 * Introduce Dynamic SchedTune Boost
 * Introduce SchedTuneAssist
@@ -49,7 +65,11 @@ Image: cosmic.jpg
 * set dirty ratio to 40%
 * add NEON accelerated XOR implementation
 
-### Changelog
+</details>
+
+### Changelog <a name="changelog"></a>
+
+<details>
 
 R6:
 
@@ -247,27 +267,32 @@ R6:
 <li> Disable auditing for selinux </li>
 </ul></p>
 </details>  
+
+</details>
+
 <hr>
 
-### Flashing intstrcutions
+### Flashing intstrcutions <a name="instructions"></a>
 
 * Flash ```Disable-userspace-slmk``` module using magisk manager
 * Reboot to recovery
 * Flash the kernel
 * Enjoy
 
-### Downlods
+### Downlods <a name="downloads"></a>
 
 * **TheCosmicStaff-R6-M21** - [Download](https://github.com/Dark-Matter7232/The-Cosmic-Staff/releases/download/R6/CosmicStaff-ONEUI-R6-M21.zip)
 * **Disable-userspace-slmk** - [Download](https://github.com/Dark-Matter7232/The-Cosmic-Staff/releases/download/R6/Disable-userspace-slmk.zip)
 
-### Sources
+### Sources <a name="sources"></a>
 
 * **Kernel source** - [Click here](https://github.com/Dark-Matter7232/The-Cosmic-Staff)
 
-#### Note
+#### Note <a name="notes"></a>
 
 __I built it for my personal use only, my goals were to achieve better efficiency and not performance__
+
+<p id="lastUpdated-css">Updated on <span id="lastUpdated"></span></p>
 
 <hr>
 <script src="https://utteranc.es/client.js"
