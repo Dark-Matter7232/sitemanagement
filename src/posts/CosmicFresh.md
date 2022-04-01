@@ -25,7 +25,7 @@ Image: CosmicFresh.jpg
 
 ## / Features / <a name="features"></a>
 Supports M21 (2020) devices  
-Samsung debug cruft nuked to reduce overall overhead   
+Samsung debug cruft nuked to reduce overall overhead  
 Using zswap + vbswap to replace zram:
   
 - Dropped Samsung hacks riddled zram
@@ -33,14 +33,14 @@ Using zswap + vbswap to replace zram:
 - Backported zswap changes from mainline
 - Samsung zswap hacks forwardported
 
-Latest SElinux susbsytem backported from mainline   
+Latest SElinux subsystem backported from mainline  
 mmap/mremap backported from mainline for perf boost  
 vmalloc backported from mainline to improve memory allocation performance   
 tlb backports from mainline  
 Latest G2D drivers backported from `GS101`  
 Kernel arm64 routines backported from `linux-next`  
 Kernel libs backported from mainline  
-Latest Wi-Fi/BL driver stack from Samsong  
+Latest Wi-Fi/BT driver stack from Samsung  
 GPU driver improvements backported from `GS101`  
 Hrtimer backported from mainline  
 CGROUP and FREEZER_V2 backported from mainline  
@@ -87,11 +87,11 @@ Affined important services to Big cluster.
     - Wipe data from recovery
 * Enjoy
 
-### Downlods <a name="downloads"></a>
+### Downloads <a name="downloads"></a>
 
 * **CosmicFresh-FINAL-Const** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-Const/CosmicFresh-FINAL-Const.zip)
 * **Disable-userspace-slmk** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/R4-Const/Disable-userspace-slmk.zip)
-* **NULL-vbmeta** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-Const/vbmeta.tar)
+* **Null-vbmeta** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-Const/vbmeta.tar)
 
 ### Sources <a name="sources"></a>
 

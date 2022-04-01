@@ -33,6 +33,8 @@ I just use [nvim](https://neovim.io/) for quick editing on servers(better than e
 - GPU: RTX3050
 - RAM: 8 + 8 (Samsung DDR4)
 - Monitor: 21 inch (LG) + 15 inch laptop (Asus)
+- Mouse: El Cheapo hp mouse.
+- Keyboard: Off-brand mech keeb.
 - Old and trusty RPI 3B+.
 
 ### Phone

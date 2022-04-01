@@ -9,6 +9,3 @@ rm -rf git-site/.files
 cp -r dst/* git-site/
 cp dst/.files git/site
 cd git-site
-git add -A
-git commit -m "Update Site"
-git push

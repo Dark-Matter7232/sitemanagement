@@ -24,7 +24,7 @@ Reading is one of the things that keeps me from rage-quiting projects.
 
 - 🏸 Playing badminton.  
 - 👾 Playing games sometimes.  
-- 📚 Reading about the geo-political history of whichever region that is in the news at the moment.  
+- 📚 Reading about the geo-political history.  
 
 ### Other things that interest me:
 
