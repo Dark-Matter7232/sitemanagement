@@ -7,5 +7,8 @@ git clone git@github.com:Dark-Matter7232/Dark-Matter7232.github.io.git git-site
 rm -rf git-site/*
 rm -rf git-site/.files
 cp -r dst/* git-site/
-cp dst/.files git/site
+cp dst/.files git-site/
 cd git-site
+git add -A
+git commit -m "Update site"
+git push
