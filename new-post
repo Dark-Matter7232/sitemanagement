@@ -1,14 +1,16 @@
 #!/bin/bash
 main() {
     if [ -z "$*" ]; then
-        echo "please give post name"
+        read -p "Enter Post Name: " PN
+        $(add_comment_section "$PN")
     else
+        echo "Got the new post name"
         $(add_comment_section "$@")
     fi
 }
 add_comment_section() {
     touch src/posts/$1.md
-cat > src/posts/$1.md <<EOF
+    cat > src/posts/$1.md <<EOF
 ---
 title:
 description:
