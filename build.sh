@@ -20,24 +20,15 @@ prepare_env() {
         script_echo "------------------------------------------------------------"
         script_echo "Creating dst directory"
         script_echo "------------------------------------------------------------"
-        mkdir $ORIGIN_DIR/dst
+        mkdir "$ORIGIN_DIR"/dst
     else
-        rm -rf $ORIGIN_DIR/dst/{*,.files}
+        rm -rf "$ORIGIN_DIR"/dst/{*,.files}
     fi
-    if [[ ! -d $ORIGIN_DIR/git-site ]]; then
-        script_echo "------------------------------------------------------------"
-        script_echo "Cloning remote repo"
-        script_echo "------------------------------------------------------------"
-        git clone git@github.com:Dark-Matter7232/Dark-Matter7232.github.io.git --single-branch -b v2 $ORIGIN_DIR/git-site
-    else
-        rm -rf $ORIGIN_DIR/git-site
-        script_echo "------------------------------------------------------------"
-        script_echo "Local clone already exists, removing it"
-        script_echo "Cloning remote repo"
-        script_echo "------------------------------------------------------------"
-        git clone git@github.com:Dark-Matter7232/Dark-Matter7232.github.io.git --single-branch -b v2 $ORIGIN_DIR/git-site
-    fi
-
+    rm -rf "$ORIGIN_DIR"/git-site
+    script_echo "------------------------------------------------------------"
+    script_echo "Cloning remote repo"
+    script_echo "------------------------------------------------------------"
+    git clone git@github.com:Dark-Matter7232/Dark-Matter7232.github.io.git --single-branch -b v2 "$ORIGIN_DIR"/git-site
 }
 
 compile_site() {
@@ -71,17 +62,15 @@ push_site() {
     script_echo "------------------------------------------------------------"
     script_echo "Pushing updated site to the remote..."
     script_echo "------------------------------------------------------------"
-    rm -rf $ORIGIN_DIR/git-site/*
-    rm -rf $ORIGIN_DIR/git-site/.files
-    cp -r $ORIGIN_DIR/dst/* $ORIGIN_DIR/git-site/
-    cp $ORIGIN_DIR/dst/.files $ORIGIN_DIR/git-site/
-    cd $ORIGIN_DIR/git-site
+    rm -rf "$ORIGIN_DIR"/git-site/{*,.files}
+    cp "$ORIGIN_DIR"/dst/{*,.files} "$ORIGIN_DIR"/git-site/
+    cd "$ORIGIN_DIR"/git-site || exit
     git add -A
     git commit -m "Update site"
     git push
     cd ../
     script_echo "------------------------------------------------------------"
-    script_echo "Pushed updated site..."
+    script_echo "Pushed updates..."
     script_echo "------------------------------------------------------------"
     exit_script
 }
