@@ -16,7 +16,7 @@ Image: cosmic.jpg
 
 - [Features](#features)
 - [Changelog](#changelog)
-- [Flashing intstrcutions](#instructions)
+- [Flashing instructions](#instructions)
 - [Downlod links](#downloads)
 - [Source code](#sources)
 - [Final Note](#notes)
@@ -272,7 +272,7 @@ R6:
 
 <hr>
 
-### Flashing intstrcutions <a name="instructions"></a>
+### Flashing instructions <a name="instructions"></a>
 
 * Flash ```Disable-userspace-slmk``` module using magisk manager
 * Reboot to recovery
