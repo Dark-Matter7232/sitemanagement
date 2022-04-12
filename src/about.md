@@ -50,4 +50,4 @@ I have presence on multiple social media/messaging platforms and I will respond 
 - [ <i class="fa-brands fa-telegram"></i> Telegram](https://telegram.me/AnuragRoy)
 
 
-I typically respond fastest to Telegram messages. For traditional email, use [anuragrai4484@gmail.com](mailto:anuragrai4484@gmail.com).
+I typically respond fastest to Telegram messages. For traditional email, use [me@const.eu.org](mailto:me@const.eu.org).
