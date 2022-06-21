@@ -72,9 +72,28 @@ Affined important services to Big cluster.
 ## / Changelog / <a name="changelog"></a>
 
 <details>
+<summary>FINAL-HOTFIX-Const:</summary>
 
-- Final feature complete release
+- Fix thermal issues
+- Fix `kswapd` allocation failures  
+- Fix performance regression caused by `rcu` fuckup  
+- Fix slow internet speed issue  
+- Reduce system latency  
+- Fixes to zswap  
+- Reduce logspam  
+- Optimize `/proc` node  
+- Revert changes to EMS `overutil ratios`  
+- Properly affine gpu to Big cluster  
+- Patches from OSRC A12 kernel
+- Reduce power usage
 
+</details> 
+
+<details>
+<summary>FINAL-Const:</summary>
+<p><ul>
+<li> Final feature complete release </li>
+</ul></p>
 </details> 
 
 ### Flashing instructions <a name="instructions"></a>
@@ -89,7 +108,7 @@ Affined important services to Big cluster.
 
 ### Downloads <a name="downloads"></a>
 
-* **CosmicFresh-FINAL-Const** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-Const/CosmicFresh-FINAL-Const.zip)
+* **CosmicFresh-FINAL-HOTFIX-Const** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-HOTFIX-Const/CosmicFresh-FINAL-HOTFIX-Const.zip)
 * **Disable-userspace-slmk** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/R4-Const/Disable-userspace-slmk.zip)
 * **Null-vbmeta** - [Download](https://github.com/Dark-Matter7232/Cosmic-fresh/releases/download/FINAL-Const/vbmeta.tar)
 

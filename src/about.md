@@ -31,6 +31,9 @@ Reading is one of the things that keeps me from rage-quiting projects.
 - ⌨ Mech keebs  
 - 𝄞 Music  
 
+## MBTI
+According to [16personalities](https://www.16personalities.com/), I am [INTP-T](https://www.16personalities.com/intp-personality).
+
 # Projects  
 
 - [DarkWM: A Window manager based on dwm](https://github.com/Dark-Matter7232/DarkWM) 
