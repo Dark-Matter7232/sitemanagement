@@ -39,4 +39,4 @@ I just use [nvim](https://neovim.io/) for quick editing on servers(better than e
 
 ### Phone
 
-- 128GB Samsung M21 running Android 11
+- 128GB Moto G40 Fusion running Android 11
