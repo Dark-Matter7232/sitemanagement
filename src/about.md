@@ -43,6 +43,11 @@ According to [16personalities](https://www.16personalities.com/), I am [INTP-T](
 - [DarkSt: A simple terminal emulator](https://github.com/Dark-Matter7232/DarkST)  
 - [TheCosmicStaff: A Custom kernel focused around efficiency](https://github.com/Dark-Matter7232/The-Cosmic-Staff)
 
+# Friends Portal  
+- [Electimon](https://1pwn.ixmoe.com/blog/)
+- [Cyberknight777](https://cyberknight777.dev/)
+- [Kenundrunk](https://kenharris.xyz/)
+
 # Contacting me
 
 I have presence on multiple social media/messaging platforms and I will respond to DMs/mentions as long as you [don't ask to ask](https://dontasktoask.com/) and express your intent clearly.
@@ -50,7 +55,7 @@ I have presence on multiple social media/messaging platforms and I will respond 
 - [ <i class="fa-brands fa-github"></i> Github](https://github.com/Dark-Matter7232)
 - [ <i class="fa-brands fa-reddit"></i> Reddit](https://www.reddit.com/user/Dark-Matter7232)
 - [ <i class="fa-brands fa-twitter"></i> Twitter](https://twitter.com/RoofTopDictator)
-- [ <i class="fa-brands fa-telegram"></i> Telegram](https://telegram.me/AnuragRoy)
+- [ <i class="fa-brands fa-telegram"></i> Telegram](https://telegram.me/not_const)
 
 
 I typically respond fastest to Telegram messages. For traditional email, use [me@const.eu.org](mailto:me@const.eu.org).
